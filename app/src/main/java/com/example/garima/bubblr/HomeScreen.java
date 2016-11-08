@@ -23,7 +23,6 @@ public class HomeScreen extends AppCompatActivity {
             //android.support.v7.app.ActionBar actionBar = getSupportActionBar();
             //actionBar.hide();
             getSupportActionBar().setDisplayShowTitleEnabled(false);
-            getActionBar().setDisplayHomeAsUpEnabled(true); // also required
         }
     }
 }
