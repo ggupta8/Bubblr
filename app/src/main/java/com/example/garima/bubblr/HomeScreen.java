@@ -1,6 +1,7 @@
 package com.example.garima.bubblr;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Build;
 import android.support.v4.widget.DrawerLayout;
@@ -10,8 +11,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewConfiguration;
+import android.widget.EditText;
 
 import java.lang.reflect.Field;
+import java.util.Calendar;
 
 public class HomeScreen extends AppCompatActivity {
 
@@ -25,4 +28,10 @@ public class HomeScreen extends AppCompatActivity {
             getSupportActionBar().setDisplayShowTitleEnabled(false);
         }
     }
+
+    public void callCalendarActivity(View view){
+        Intent intent = new Intent(this, CalendarActivity.class);
+        startActivity(intent);
+    }
+
 }

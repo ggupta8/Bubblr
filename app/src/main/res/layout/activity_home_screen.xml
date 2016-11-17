@@ -26,7 +26,8 @@
             android:id="@+id/btnCalendarsHome"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/calendars"
-            android:background="#d7ddeb" />
+            android:background="#d7ddeb"
+            android:onClick="callCalendarActivity"/>
 
         <View
             android:layout_width="275dp"
